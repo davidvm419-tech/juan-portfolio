@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+
+/* colors cycle for hero section */
+@keyframes colorCycle {
+  0% {
+    background: radial-gradient(circle, #00E5FFFF, #2EFF7E66);
+  }
+  25% {
+    background: radial-gradient(circle, #00F0FFFF, #2EFF7E88);
+  }
+  50% {
+    background: radial-gradient(circle, #2EFF7ECC, #00D8FFFF);
+  }
+  75% {
+    background: radial-gradient(circle, #00F0FFFF, #2EFF7E88);
+  }
+  100% {
+    background: radial-gradient(circle, #00E5FFFF, #2EFF7E66);
+  }
+}
+
+
+@keyframes buttonCycle {
+  0%   { background-color: #00E5FF44; border-color: #00E5FFDD; }
+  25%  { background-color: #00F0FF55; border-color: #00F0FFEE; }
+  50%  { background-color: #2EFF7E55; border-color: #2EFF7EDD; }
+  75%  { background-color: #00F0FF55; border-color: #00F0FFEE; }
+  100% { background-color: #00E5FF44; border-color: #00E5FFDD; }
+}
+
