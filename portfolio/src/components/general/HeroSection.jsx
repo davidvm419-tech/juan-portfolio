@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 export default function HeroSection() {
     const navigate = useNavigate();
     const logos = [
-        {name: "javaScript", src: "/images/javascript-logo.svg"},
-        {name: "react", src: "/images/react-original.svg"},
-        {name: "python", src: "/images/python-original.svg"},
-        {name: "django", src: "/images/django-plain.svg"},
-        {name: "tailwindcss", src: "/images/tailwindcss.svg"},
+        {name: "javaScript", src: "/images/stackLogos/javascript-logo.svg"},
+        {name: "react", src: "/images/stackLogos/react-original.svg"},
+        {name: "python", src: "/images/stackLogos/python-original.svg"},
+        {name: "django", src: "/images/stackLogos/django-plain.svg"},
+        {name: "tailwindcss", src: "/images/stackLogos/tailwindcss.svg"},
     ]; 
 
     return (
