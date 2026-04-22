@@ -4,28 +4,33 @@
 /* colors cycle for hero section */
 @keyframes colorCycle {
   0% {
-    background: radial-gradient(circle, #00E5FFFF, #2EFF7E66);
-  }
-  25% {
-    background: radial-gradient(circle, #00F0FFFF, #2EFF7E88);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.3;
   }
   50% {
-    background: radial-gradient(circle, #2EFF7ECC, #00D8FFFF);
-  }
-  75% {
-    background: radial-gradient(circle, #00F0FFFF, #2EFF7E88);
+    transform: translate(-50%, -50%) scale(1.15); 
+    opacity: 0.5; 
   }
   100% {
-    background: radial-gradient(circle, #00E5FFFF, #2EFF7E66);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.3;
   }
 }
 
-
 @keyframes buttonCycle {
-  0%   { background-color: #00E5FF44; border-color: #00E5FFDD; }
-  25%  { background-color: #00F0FF55; border-color: #00F0FFEE; }
-  50%  { background-color: #2EFF7E55; border-color: #2EFF7EDD; }
-  75%  { background-color: #00F0FF55; border-color: #00F0FFEE; }
-  100% { background-color: #00E5FF44; border-color: #00E5FFDD; }
+  0%   { 
+    background-color: rgba(0, 229, 255, 0.05); 
+    border-color: rgba(0, 229, 255, 0.2);
+    transform: scale(1);
+  }
+  50%  { 
+    background-color: rgba(0, 229, 255, 0.15); 
+    border-color: rgba(0, 229, 255, 0.7); 
+    transform: scale(1.03);
+  }
+  100% { 
+    background-color: rgba(0, 229, 255, 0.05); 
+    border-color: rgba(0, 229, 255, 0.2);
+    transform: scale(1);
+  }
 }
-

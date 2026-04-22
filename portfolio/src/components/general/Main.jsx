@@ -14,13 +14,9 @@ export default function Main() {
         <>
           <Navbar />
             <div className="min-h-screen w-full bg-[#0a1c22] text-white pt-32 px-6">
-              <h2 className="text-5xl font-bold text-center mb-4">
-                Projects
-              </h2>
-
-              <p className="text-lg text-gray-400 max-w-2xl text-center mx-auto mb-12">
+              <h2 className="text-5xl font-bold text-center mb-12">
                 Take a look at some of my work.
-              </p>
+              </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
                 {projects.map(project => (

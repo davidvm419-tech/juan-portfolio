@@ -12,9 +12,11 @@
         "/images/jewelry/product.jpg",
         "/images/jewelry/settings.jpg",
       ],
-      demo: "https://www.youtube.com/watch?v=es6B5ec65nk&list=PLZGPmIFUvv2Y_WK7MkWnMXoapaVevi_3U",
-      code: "https://github.com/davidvm419-tech/JewelryApp-Capstone",
-      live: null,
+      links: [
+        {label: "View Live", url: null},
+        {label: "View Code", url: "https://github.com/davidvm419-tech/JewelryApp-Capstone"},
+        {label: "View Demo video", url: "https://www.youtube.com/watch?v=es6B5ec65nk&list=PLZGPmIFUvv2Y_WK7MkWnMXoapaVevi_3U"}, 
+      ],
     },
     {
       id: 2, 
@@ -28,9 +30,11 @@
         "/images/chicake/user.jpg",
         "/images/chicake/order.jpg",
       ],
-      demo: "https://www.youtube.com/watch?v=A7Sc_nehB1I",
-      code: "https://github.com/davidvm419-tech/cs50-final-project",
-      live: null,
+      links: [
+        {label: "View Live", url: null},
+        {label: "View Code", url: "https://github.com/davidvm419-tech/cs50-final-project"},
+        {label: "View Demo video", url: "https://www.youtube.com/watch?v=A7Sc_nehB1I"}, 
+      ]
     },
     {
       id: 3, 
@@ -44,9 +48,11 @@
         "/images/network/user.jpg",
         "/images/network/following.jpg",
       ],
-      demo: "https://www.youtube.com/watch?v=AIjuomV6fXo&list=PLZGPmIFUvv2Y_WK7MkWnMXoapaVevi_3U&index=2",
-      code: "https://github.com/davidvm419-tech/CS50w_project_4",
-      live: null,
+      links: [
+        {label: "View Live", url: null},
+        {label: "View Code", url: "https://github.com/davidvm419-tech/CS50w_project_4"},
+        {label: "View Demo video", url: "https://www.youtube.com/watch?v=AIjuomV6fXo&list=PLZGPmIFUvv2Y_WK7MkWnMXoapaVevi_3U&index=2"}, 
+      ],
     },
   ]; 
 
