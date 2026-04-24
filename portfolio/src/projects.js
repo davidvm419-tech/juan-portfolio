@@ -31,7 +31,7 @@
         "/images/chicake/order.jpg",
       ],
       links: [
-        {label: "View Live", url: null},
+        {label: "View Live (first load can take up to 60 seconds)", url: "https://chicake-app.onrender.com/"},
         {label: "View Code", url: "https://github.com/davidvm419-tech/cs50-final-project"},
         {label: "View Demo video", url: "https://www.youtube.com/watch?v=A7Sc_nehB1I"}, 
       ]
