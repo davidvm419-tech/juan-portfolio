@@ -111,7 +111,7 @@ export default function ProjectDetails() {
             </button>
 
             {projectButtons.map((button, index) => (
-              <a key ={index}className="px-6 py-3 rounded-lg bg-[#00e5ff33] border border-[#00e5ff77] hover:bg-[#00e5ff55] transition" 
+              <a key ={index}className="px-6 py-3 rounded-lg bg-[#00e5ff33] border border-[#00e5ff77] hover:bg-[#00e5ff55] transition hover: <p>load can take up 60 seconds</p>" 
                 href={button.url}
                 target="_blank"
                 rel="noopener noreferrer">
