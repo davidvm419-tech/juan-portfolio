@@ -13,7 +13,7 @@
         "/images/jewelry/settings.jpg",
       ],
       links: [
-        {label: "View Live", url: null},
+        {label: "View Live", url: "https://geraldine-jewelry-app.vercel.app/"},
         {label: "View Code", url: "https://github.com/davidvm419-tech/JewelryApp-Capstone"},
         {label: "View Demo video", url: "https://www.youtube.com/watch?v=es6B5ec65nk&list=PLZGPmIFUvv2Y_WK7MkWnMXoapaVevi_3U"}, 
       ],
