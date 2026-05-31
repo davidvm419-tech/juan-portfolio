@@ -13,7 +13,7 @@ export default function Main() {
     return (
         <>
           <Navbar />
-            <div className="min-h-screen w-full bg-[#0a1c22] text-white pt-32 px-6">
+            <div className="min-h-screen w-full bg-[#131018] text-white pt-32 px-6">
               <h2 className="text-5xl font-bold text-center mb-12">
                 Take a look at some of my work.
               </h2>
@@ -21,9 +21,9 @@ export default function Main() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
                 {projects.map(project => (
                   // Project card 
-                  <div key={project.id} className="bg-[#1c3a3f] border border-[#2e555b] rounded-xl hover:border-[#4fa3b3] transition p-5 flex flex-col">
+                  <div key={project.id} className="bg-[#4B2E83] border border-[#5E148C] rounded-xl hover:border-[#8A2BE2] shadow-[0_0_25px_rgba(139,92,246,0.15) transition p-5 flex flex-col">
                     {/* Project image */}   
-                    <div className="w-full rounded-lg mb-4 overflow-hidden border border-[#2e555b] bg-[#24474d]">
+                    <div className="w-full rounded-lg mb-4 overflow-hidden border border-[#5E148C] bg-[#3A1F5F]">
                       <img 
                         className="w-full h-auto block"
                         src={project.image} 
@@ -40,15 +40,15 @@ export default function Main() {
                     {/* Project stack */}
                     <div className="flex flex-wrap gap-2 mb-4">
                       {project.stack.map((tech, index) => (
-                        <span key={index} className="px-2 py-1 text-xs rounded bg-[#2e555b] text-gray-100">
+                        <span key={index} className="px-2 py-1 text-xs rounded bg-[#A65A2E] text-white">
                           {tech}
                         </span>
                       ))}
                     </div>
                     <button
                       onClick={() => navigate(`/project/${project.id}`)}
-                      className="mt-auto text-center py-2 rounded-lg bg-[#2e555b] text-gray-100 
-                      hover:bg-[#3b6a72] hover:text-white transition">
+                      className="mt-auto text-center py-2 rounded-lg bg-[#7A1CAC] text-gray-100 
+                      hover:bg-[#8A2BE2] hover:text-[#E6A96A] transition">
                       View details
                     </button>
                   </div>
