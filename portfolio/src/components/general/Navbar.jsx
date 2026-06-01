@@ -12,7 +12,10 @@ export default function Navbar() {
     ];
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-[#1F1A24]/80 backdrop-blur-lg border-b border-[#4B2E83]/30">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto px-4 py-3 
+                    flex flex-col md:flex-row 
+                    md:justify-between md:items-center 
+                    space-y-3 md:space-y-0">
         <div className="flex items-center space-x-6">
           <img className="w-28 h-12 object-contain cursor-pointer 
              rounded-xl border border-[#4B2E83]/40 
